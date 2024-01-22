@@ -16,5 +16,5 @@ def hello_there(name):
     now = datetime.now()
     formatted_now = now.strftime("%A, %d %B, %Y at %X")
 
-    content = "Hello there, " + name + "! It's " + formatted_now
+    content = "Hello There, " + name + "! It's " + formatted_now
     return content
