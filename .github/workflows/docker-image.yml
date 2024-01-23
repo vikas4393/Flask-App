@@ -26,7 +26,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
           push: true
-          tags: akoskm/my-app:latest
+          tags: vikas4393/my-app:latest
 
 # Build and push to AWS ECR        
 #    - name: Configure AWS credentials
